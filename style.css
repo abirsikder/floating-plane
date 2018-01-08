@@ -1,0 +1,72 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #19B5FE;
+}
+
+.header{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.header h1{
+    color: white;
+    font-family: arial;
+    font-weight: 800;
+    font-size: 55px;
+    text-shadow: 6px 6px 5px #34495e;
+    
+}
+.section{
+    position: relative;
+    display: block;
+    margin: auto auto;
+    min-height: 600px;
+	overflow:hidden;
+    
+}
+
+ #plane{
+    display: block;
+    position:absolute;
+    width: 300px;
+    height: auto;
+    left: 500px;
+    right: 500px;
+    top : 0px;
+	z-index: 999;
+    
+    
+}
+
+.cloud{   
+    display:block;
+	position:absolute;
+	width:160px;
+	height:auto;
+    z-index: 99;
+}
+
+#cloud1{
+    top: 0px;
+    left: -360px;
+}
+
+#cloud2{
+    top: 50px;
+    left: -160px;
+}
+
+#cloud3{
+    top: 150px;
+    left: -900px;
+}
+
+#cloud4{
+    top: 260px;
+    left: -640px;
+}
+
+
+
